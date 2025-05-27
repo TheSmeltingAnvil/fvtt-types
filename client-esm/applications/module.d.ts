@@ -5,6 +5,8 @@ export * as elements from "./elements/module.ts";
 export * as fields from "./forms/fields.ts";
 export * as sheets from "./sheets/module.ts";
 
+export * as handlebars from "./handlebars/module.ts";
+
 export const instances: Map<number, ApplicationV2>;
 
 /**

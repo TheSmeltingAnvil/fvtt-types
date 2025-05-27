@@ -3,16 +3,14 @@
  * @param path  The web-accessible HTML template URL
  * @param id  An ID to register the partial with.
  * @returns A Promise which resolves to the compiled Handlebars template
- * @deprecated
  */
-declare function getTemplate(path: string, id?: string): Promise<(context: object, options?: object) => string>;
+export function getTemplate(path: string, id?: string): Promise<(context: object, options?: object) => string>;
 
 /**
  * Load and cache a set of templates by providing an Array of paths
  * @param paths
- * @deprecated
  */
-declare function loadTemplates(paths: string[] | Record<string, string>): Promise<void>;
+export function loadTemplates(paths: string[] | Record<string, string>): Promise<void>;
 
 /**
  * Get and render a template using provided data and handle the returned HTML
@@ -22,6 +20,5 @@ declare function loadTemplates(paths: string[] | Record<string, string>): Promis
  * @param data  A data object against which to compile the template
  *
  * @return      Returns the rendered HTML
- * @deprecated
  */
-declare function renderTemplate(path: string, data?: object): Promise<string>;
+export function renderTemplate(path: string, data?: object): Promise<string>;
