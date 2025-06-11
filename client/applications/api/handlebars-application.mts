@@ -1,6 +1,21 @@
 import type { ApplicationFormConfiguration, ApplicationRenderContext, ApplicationRenderOptions } from "../_types.mjs";
 import type ApplicationV2 from "./application.mjs";
 
+
+////export declare abstract class HandlebarsApplicationMixinType {
+////    static PARTS: Record<string, HandlebarsTemplatePart>;
+////    get parts(): Record<string, HTMLElement>;
+////    protected _renderHTML(context: object, options: ApplicationRenderOptions): Promise<unknown>;
+////    protected _renderHTML(context: ApplicationRenderContext, options: HandlebarsRenderOptions,): Promise<Record<string, HTMLElement>>;
+////    protected _preparePartContext(partId: string, context: object): Promise<object>;
+////    protected _replaceHTML(result: Record<string, HTMLElement>, content: HTMLElement, options: HandlebarsRenderOptions,): void;
+////    protected _preSyncPartState(partId: string, newElement: HTMLElement, priorElement: HTMLElement, state: object): void;
+////    protected _syncPartState(partId: string, newElement: HTMLElement, priorElement: HTMLElement, state: object): void;
+////    protected _attachPartListeners(partId: string, htmlElement: HTMLElement, options: HandlebarsRenderOptions): void;
+////}
+
+export type HandlebarsApplication = InstanceType<ReturnType<typeof HandlebarsApplicationMixin>>;
+
 /** Augment an Application class with [Handlebars](https://handlebarsjs.com) template rendering behavior. */
 /* eslint-disable @typescript-eslint/no-unused-expressions, no-unused-expressions */
 // eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
