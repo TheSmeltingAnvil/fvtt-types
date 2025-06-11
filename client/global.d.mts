@@ -17,7 +17,7 @@ declare global {
         export import TinyMCE = tinymce;
         export import foundry = globalFoundry;
         export import io = SocketIO;
-
+        // @ts-expect-error showdown is not defined...
         const showdown: typeof Showdown;
     }
 }

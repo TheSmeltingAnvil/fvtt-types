@@ -20,7 +20,7 @@ declare global {
         export import Folder = foundry.documents.Folder;
         export import Item = foundry.documents.Item;
         export import JournalEntry = foundry.documents.JournalEntry;
-        // export import JournalEntryCategory = foundry.documents.JournalEntryCategory;
+        //// export import JournalEntryCategory = foundry.documents.JournalEntryCategory;
         export import JournalEntryPage = foundry.documents.JournalEntryPage;
         export import Macro = foundry.documents.Macro;
         export import MeasuredTemplateDocument = foundry.documents.MeasuredTemplateDocument;
@@ -40,7 +40,7 @@ declare global {
         export import Roll = foundry.dice.Roll;
 
         export import Collection = foundry.utils.Collection;
-        export import Color = foundry.utils.Color;
+        ////export import Color = foundry.utils.Color;
         export import fromUuidSync = foundry.utils.fromUuidSync;
         export import fromUuid = foundry.utils.fromUuid;
     }
