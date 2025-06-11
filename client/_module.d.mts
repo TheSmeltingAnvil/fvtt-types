@@ -88,6 +88,8 @@ export * as helpers from "./helpers/_module.mjs";
  */
 export * as nue from "./nue/_module.mjs";
 
+export { default as Config } from "./config.mjs";
+
 export { default as Game } from "./game.mjs";
 
 import * as globalUI from "./ui.mjs";

@@ -762,13 +762,13 @@ interface StatusEffectConfig extends Partial<ActiveEffectSource> {
     img: ImageFilePath;
 }
 
-interface FontFamilyDefinition {
+export interface FontFamilyDefinition {
     /** Whether the font is available in the rich text editor. This will also enable it for notes and drawings. */
     editor: boolean;
     fonts: FontDefinition[];
 }
 
-interface FontDefinition extends FontFaceDescriptors {
+export interface FontDefinition extends FontFaceDescriptors {
     /**
      * Individual font face definitions for this font family. If this is empty, the font family may only be loaded
      * from the client's OS-installed fonts.
