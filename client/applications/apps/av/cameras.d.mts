@@ -1,8 +1,8 @@
-import { ApplicationConfiguration, ApplicationRenderContext } from "@client/applications/_types.mjs";
-import AVMaster from "@client/av/master.mjs";
-import { AVSettingsData } from "@client/av/settings.mjs";
-import User from "@client/documents/user.mjs";
-import { DataField } from "@common/data/fields.mjs";
+import { ApplicationConfiguration, ApplicationRenderContext } from "client/applications/_types.mjs";
+import AVMaster from "client/av/master.mjs";
+import { AVSettingsData } from "client/av/settings.mjs";
+import User from "client/documents/user.mjs";
+import { DataField } from "common/data/fields.mjs";
 import ApplicationV2 from "../../api/application.mjs";
 import HandlebarsApplicationMixin, {
     HandlebarsRenderOptions,

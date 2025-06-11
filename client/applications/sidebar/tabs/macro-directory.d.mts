@@ -1,5 +1,5 @@
-import { ApplicationConfiguration } from "@client/applications/_types.mjs";
-import Macro from "@client/documents/macro.mjs";
+import { ApplicationConfiguration } from "client/applications/_types.mjs";
+import Macro from "client/documents/macro.mjs";
 import DocumentDirectory from "../document-directory.mjs";
 
 /**

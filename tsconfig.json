@@ -9,19 +9,13 @@
       "DOM",
       "DOM.Iterable"
     ],
+    "baseUrl": ".",
+    "rootDir": ".",
     "strict": true,
     "skipLibCheck": false,
     "noImplicitOverride": true,
     "noEmit": true,
     "esModuleInterop": true,
-    "paths": {
-      "@common/*": [
-        "./common/*"
-      ],
-      "@client/*": [
-        "./client/*"
-      ]
-    }
   },
   "include": [
     "common/**/*",

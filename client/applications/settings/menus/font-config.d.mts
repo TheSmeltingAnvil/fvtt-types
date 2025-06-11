@@ -3,13 +3,13 @@ import {
     ApplicationConfiguration,
     ApplicationFormConfiguration,
     ApplicationRenderContext,
-} from "@client/applications/_types.mjs";
-import ApplicationV2 from "@client/applications/api/application.mjs";
+} from "client/applications/_types.mjs";
+import ApplicationV2 from "client/applications/api/application.mjs";
 import HandlebarsApplicationMixin, {
     HandlebarsRenderOptions,
     HandlebarsTemplatePart,
-} from "@client/applications/api/handlebars-application.mjs";
-import { FontDefinition, FontFamilyDefinition } from "@client/config.mjs";
+} from "client/applications/api/handlebars-application.mjs";
+import { FontDefinition, FontFamilyDefinition } from "client/config.mjs";
 
 interface NewFontDefinition {
     family: string;

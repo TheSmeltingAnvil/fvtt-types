@@ -4,12 +4,12 @@ import {
     ApplicationRenderContext,
     ApplicationTabsConfiguration,
     FormFooterButton,
-} from "@client/applications/_types.mjs";
-import ApplicationV2 from "@client/applications/api/application.mjs";
-import Actor from "@client/documents/actor.mjs";
-import TokenDocument from "@client/documents/token.mjs";
-import { DataSchema } from "@common/abstract/_types.mjs";
-import { PrototypeToken } from "@common/data/_module.mjs";
+} from "client/applications/_types.mjs";
+import ApplicationV2 from "client/applications/api/application.mjs";
+import Actor from "client/documents/actor.mjs";
+import TokenDocument from "client/documents/token.mjs";
+import { DataSchema } from "common/abstract/_types.mjs";
+import { PrototypeToken } from "common/data/_module.mjs";
 import HandlebarsApplicationMixin, {
     HandlebarsRenderOptions,
     HandlebarsTemplatePart,

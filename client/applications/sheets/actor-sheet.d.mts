@@ -1,4 +1,4 @@
-import Actor from "@client/documents/actor.mjs";
+import Actor from "client/documents/actor.mjs";
 import DocumentSheetV2, { DocumentSheetConfiguration } from "../api/document-sheet.mjs";
 
 /** A base class for providing Actor Sheet behavior using ApplicationV2. */
