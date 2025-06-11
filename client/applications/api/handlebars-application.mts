@@ -30,6 +30,10 @@ export default function HandlebarsApplicationMixin<TBase extends AbstractConstru
             return {};
         }
 
+        constructor(...args: any[]) {
+            super(args);
+        }
+
         protected override _configureRenderOptions(options: HandlebarsRenderOptions): void {
             options;
         }
