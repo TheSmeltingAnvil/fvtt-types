@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "forceConsistentCasingInFileNames": true,
+    "target": "ESNext",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "lib": ["ESNext", "DOM", "DOM.Iterable"],
+    "baseUrl": ".",
+    "rootDir": ".",
+    "strict": true,
+    "skipLibCheck": false,
+    "noImplicitOverride": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "types": ["jquery", "node"]
+  },
+  "include": [
+    "global.d.ts",
+    "util.d.ts",
+    "primitives/**/*.d.ts",
+    "const/**/*.d.ts",
+    "config/**/*.d.ts",
+    "foundry/**/*.d.ts"
+  ]
+}
