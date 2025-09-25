@@ -1,8 +1,0 @@
-export * from "./CanvasDocumentMixin.js"
-export { default as CanvasDocumentMixin } from "./CanvasDocumentMixin.js"
-export * from "./ClientDocumentMixin.js"
-export { default as ClientDocumentMixin } from "./ClientDocumentMixin.js"
-export { default as DirectoryCollectionMixin } from "./DirectoryCollectionMixin.js"
-export { default as DocumentCollection } from "./DocumentCollection.js"
-export * from "./WorldCollection.js"
-export { default as WorldCollection } from "./WorldCollection.js"

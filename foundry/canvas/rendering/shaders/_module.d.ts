@@ -1,6 +1,0 @@
-export { default as AbstractBaseShader } from "./AbstractBaseShader.js"
-export { default as AdaptiveBackgroundShader } from "./lighting/AdaptiveBackgroundShader.js"
-export { default as AdaptiveColorationShader } from "./lighting/AdaptiveColorationShader.js"
-export { default as AdaptiveDarknessShader } from "./lighting/AdaptiveDarknessShader.js"
-export { default as AdaptiveIlluminationShader } from "./lighting/AdaptiveIlluminationShader.js"
-export { default as AdaptiveLightingShader } from "./lighting/AdaptiveLightingShader.js"

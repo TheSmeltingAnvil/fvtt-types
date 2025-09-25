@@ -1,8 +1,0 @@
-export * as apps from "./apps/_module.js"
-export * from "./AbstractSidebarTab.js"
-export { default as AbstractSidebarTab } from "./AbstractSidebarTab.js"
-export * from "./DocumentDirectory.js"
-export { default as DocumentDirectory } from "./DocumentDirectory.js"
-export * from "./Sidebar.js"
-export { default as Sidebar } from "./Sidebar.js"
-export * as tabs from "./tabs/_module.js"

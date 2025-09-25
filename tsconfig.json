@@ -2,24 +2,29 @@
   "compilerOptions": {
     "forceConsistentCasingInFileNames": true,
     "target": "ESNext",
-    "module": "NodeNext",
-    "moduleResolution": "NodeNext",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
     "lib": ["ESNext", "DOM", "DOM.Iterable"],
-    "baseUrl": ".",
+    "baseUrl": "src",
     "rootDir": ".",
     "strict": true,
     "skipLibCheck": false,
     "noImplicitOverride": true,
     "noEmit": true,
     "esModuleInterop": true,
-    "types": ["jquery", "node"]
+    "types": ["jquery", "node"],
+    "paths": {
+      "@common/*": ["common/*"],
+      "@client/*": ["client/*"]
+    }
   },
   "include": [
-    "global.d.ts",
-    "util.d.ts",
-    "primitives/**/*.d.ts",
-    "const/**/*.d.ts",
-    "config/**/*.d.ts",
-    "foundry/**/*.d.ts"
+    "src/global.mts",
+    "src/common/utils/_module.mts",
+    "src/common/primitives/_module.mts",
+    "src/common/constants.mjs",
+    "src/common/common/config.mjs",
+    "src/client/**/*.mts",
+    "src/common/abstract/ClientDocumentMixin.d.mts"
   ]
 }
